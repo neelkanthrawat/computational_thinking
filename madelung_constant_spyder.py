@@ -9,6 +9,7 @@ Created on Sat Mar 20 08:53:09 2021
 import numpy as np
 
 #following function takes shape of a 3-d matrix as an argument and returns a 3-d matrix whose elements are (square of distance from origin/ nearest neighbour distance) 
+#this matrix lies in the first octant of 3d-euclidean physical space
 def dist_block_matrix(shape_tuple):
     sheet_matrix=np.zeros(shape_tuple,dtype=np.float)
     lowest_sheet_shape=np.shape(sheet_matrix[0,:,:])#(no_of_rows,no_of_cols)
