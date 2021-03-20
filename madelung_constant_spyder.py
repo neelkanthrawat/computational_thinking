@@ -5,6 +5,7 @@ Created on Sat Mar 20 08:53:09 2021
 @author: NEELKANTH RAWAT
 """
 #this program is to evaluate the madelung constant
+#not finished yet
 import numpy as np
 
 #following function takes shape of the 3-d matrix as an argument and returns a 3-d matrix whose elements are values inside the square_root
