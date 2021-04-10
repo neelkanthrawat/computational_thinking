@@ -4,7 +4,8 @@ Created on Sat Mar 20 08:53:09 2021
 
 @author: NEELKANTH RAWAT
 """
-#this program is to evaluate the madelung constant
+#this program is to evaluate the madelung constant (ionic crystals' case)
+#not complete et. need to just incorpirate the summation series.
 import numpy as np
 
 #following function takes shape of the 3-d matrix as an argument and returns a 3-d matrix whose elements are "square_of(distance from the origin)/((#nearest_nbr_dist=a)**2)
